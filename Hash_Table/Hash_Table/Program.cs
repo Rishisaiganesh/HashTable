@@ -33,6 +33,8 @@ namespace Hash_Table
             Console.WriteLine(Obj.GetV("3").GetHashCode());
             Console.WriteLine(Obj.Size() + "Getting Size of HashTable");
             Console.WriteLine("Getting Size of HashTable " + Obj.Size());
+            Obj.Remove("11");
+            Console.WriteLine("size of the Hash table After removing" + Obj.Size());
         }
     }
 }
